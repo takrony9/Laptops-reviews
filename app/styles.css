@@ -1,0 +1,267 @@
+body {
+
+  background-image: url("bbb.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+
+}
+ a:visited {
+  background-color: #f44336;
+  color: brown;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.center-Container{
+   text-align: center;
+}
+a:hover, a:active {
+  background-color: red;
+}
+
+.h1{
+
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.h2{
+  font-family: sans-serif;
+  font-size: 36;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+.h4{
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+.label1{
+  background-color: black;
+  /* border: no border; */
+
+  color: black;
+
+  /*Outer props*/
+
+  font-size: 42px;
+  cursor: pointer;
+
+  /*to use absolute method*/
+  position: fixed;
+  left: 20%;
+  top: 0%;
+  margin-left: 75px;
+}
+
+.button {
+  background-color: Gray;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: absolute;
+  left: 40%;
+  margin-left: 75px;
+}
+.button1 {
+  background-color: Gray;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  width: 110px;
+  /*to use absolute method*/
+  position: absolute;
+  left: 41.5%;
+  margin-left: 75px;
+}
+.input{
+  size: 200px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 40%;
+  margin-left:80px;
+}
+.label
+{
+
+  size: 200px
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 32%;
+margin-left:80px;
+}
+.img {
+
+   border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  position: fixed;
+  bottom: 8px;
+  left: 16px;
+  top: 0%;
+  font-size: 18px;
+}
+.button2 {
+  background-color: BLUE; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: fixed;
+  left: 90%;
+  top: 0%;
+
+}
+.button3 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  left: -20px
+}
+.about {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 22%;
+  top: 0%;
+  margin-left: 75px;
+}
+.friendreq {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 31%;
+  top: 0%;
+  margin-left: 75px;
+}
+.friends {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 40%;
+  top: 0%;
+  margin-left: 75px;
+}
+.profile {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 49%;
+  top: 0%;
+  margin-left: 75px;
+}
+.timeline {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 58%;
+  top: 0%;
+  margin-left: 75px;
+}
+.editpp {
+  background-color: #4CAF50;
+  /* border: no border; */
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Outer props*/
+  display: inline-block;
+  font-size: 11px;
+  cursor: pointer;
+  width: 150px;
+  /*to use absolute method*/
+  position: fixed;
+  left: 67%;
+  top: 0%;
+  margin-left: 75px;
+}
+.er{
+  position: absolute;
+  left: 67%;
+  top: 0%;
+  margin-left: 75px;
+}
+.radio {
+    display : none;
+}
